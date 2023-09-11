@@ -24,6 +24,7 @@ class LoginSceen extends StatelessWidget {
             TextField(
               controller: userNameCtr,
               decoration: InputDecoration(
+                hintText: 'username',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(15)
                 )
@@ -33,6 +34,7 @@ class LoginSceen extends StatelessWidget {
             TextField(
               controller: passWordCtr,
               decoration: InputDecoration(
+                hintText: 'password',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(15)
                 )
