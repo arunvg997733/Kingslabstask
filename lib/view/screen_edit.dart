@@ -58,7 +58,7 @@ class ProductEditScreen extends StatelessWidget {
                         ])),
                     child: TextButton(
                       onPressed: () {
-                      edit(titleCtr.text, priceCtr.text, descriptionCtr.text, data['id']);
+                      edit(titleCtr.text, priceCtr.text, descriptionCtr.text, data['id'],context);
 
                       },
                       child: const Center(
